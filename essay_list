@@ -400,7 +400,7 @@ fjP/2Q=="
                 </a>
             </div>
             <div class="col-2">
-                <a href="/essays">
+                <a href="/essay_filter">
                     Essays
                 </a>
             </div>
@@ -446,12 +446,7 @@ If its you're first time here, here are a few interesting ones to start with --<
 <p>
     Please enjoy!
 </p>
-    <h2 class="centered">Essays By Tag</h2>
-<p>
-    I've organized my essays through a tag based categorization system.
-    <strong>Click these little gray buttons to filter the list of essays to your choice of tags.</strong>
-</p>
-    
+    <h2 class="centered">List of Essays</h2>
     <style>
     .category-row {
         border-top: 1px solid lightgray;
@@ -497,165 +492,261 @@ If its you're first time here, here are a few interesting ones to start with --<
 
 </style>
 <div>
-    <div class="container-fluid">
-        
-        <div class="row category-row">
-            <div class="col-2 category-text">
-                technical:
-            </div>
-            <div class="col-10">
-                <div class="container-fluid tag-section">
-                    
-                        <div class="row tag-row">
-                        
-                            <div class="col-4" style="text-align: center;">
-                                <a href="?tags=communication,complexity,site reliability"
-                                    
-                                    class="tag tag-selected"
-                                    
-                                   >
-                                    mysql
-                                </a>
-                            </div>
-                        
-                        </div>
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="row category-row">
-            <div class="col-2 category-text">
-                engineering:
-            </div>
-            <div class="col-10">
-                <div class="container-fluid tag-section">
-                    
-                        <div class="row tag-row">
-                        
-                            <div class="col-4" style="text-align: center;">
-                                <a href="?tags=communication,complexity,mysql,site reliability,interfaces"
-                                    
-                                    class="tag tag-not-selected"
-                                    
-                                   >
-                                    interfaces
-                                </a>
-                            </div>
-                        
-                            <div class="col-4" style="text-align: center;">
-                                <a href="?tags=communication,complexity,mysql"
-                                    
-                                    class="tag tag-selected"
-                                    
-                                   >
-                                    site reliability
-                                </a>
-                            </div>
-                        
-                        </div>
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="row category-row">
-            <div class="col-2 category-text">
-                organizations:
-            </div>
-            <div class="col-10">
-                <div class="container-fluid tag-section">
-                    
-                        <div class="row tag-row">
-                        
-                            <div class="col-4" style="text-align: center;">
-                                <a href="?tags=complexity,mysql,site reliability"
-                                    
-                                    class="tag tag-selected"
-                                    
-                                   >
-                                    communication
-                                </a>
-                            </div>
-                        
-                            <div class="col-4" style="text-align: center;">
-                                <a href="?tags=communication,complexity,mysql,site reliability,management"
-                                    
-                                    class="tag tag-not-selected"
-                                    
-                                   >
-                                    management
-                                </a>
-                            </div>
-                        
-                        </div>
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="row category-row">
-            <div class="col-2 category-text">
-                philosophy:
-            </div>
-            <div class="col-10">
-                <div class="container-fluid tag-section">
-                    
-                        <div class="row tag-row">
-                        
-                            <div class="col-4" style="text-align: center;">
-                                <a href="?tags=communication,mysql,site reliability"
-                                    
-                                    class="tag tag-selected"
-                                    
-                                   >
-                                    complexity
-                                </a>
-                            </div>
-                        
-                            <div class="col-4" style="text-align: center;">
-                                <a href="?tags=communication,complexity,mysql,site reliability,decision making"
-                                    
-                                    class="tag tag-not-selected"
-                                    
-                                   >
-                                    decision making
-                                </a>
-                            </div>
-                        
-                        </div>
-                    
-                </div>
-            </div>
-        </div>
-        
-
-        <div class="row">
-            <div class="col-5"></div>
-            <div class="col-4">
-                <a href="?tags="
-                   
-                    class="tag tag-selected"
-                   
-                >
-                   Clear Tags
-                </a>
-            </div>
-            <div class="col-3"></div>
-        </div>
-        <div class="row">
-            <div class="essay-barrier"
-                 style="height: 20px; border-bottom: 1px solid lightgray;">
-            </div>
-        </div>
-    </div>
     <div>
         
-        <div class="row">
-            <div class="centered">
-                No essays match that conjunction of tags.
+            
+            <div class="row" style="border-bottom: 1px solid lightgray;">
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/fixing_problems_but_creating_more"
+                        >
+                    Fixing Problems But Creating More
+                    </a>
+                </div>
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/sre_18"
+                        >
+                    SRE 18: Where Infrastructure and SRE Fits In
+                    </a>
+                </div>
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/sre_17"
+                        >
+                    SRE 17: Durability - The Need to Test Recovery Workflows
+                    </a>
+                </div>
+                
             </div>
-        </div>
+            
+            <div class="row" style="border-bottom: 1px solid lightgray;">
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/sre_16"
+                        >
+                    SRE 16: Durability - Protections via Redundancy
+                    </a>
+                </div>
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/sre_15"
+                        >
+                    SRE 15: Availability - Remediating Cascading Incidents
+                    </a>
+                </div>
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/sre_14"
+                        >
+                    SRE 14: Availability - Protections via Defensive Algorithms
+                    </a>
+                </div>
+                
+            </div>
+            
+            <div class="row" style="border-bottom: 1px solid lightgray;">
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/sre_13"
+                        >
+                    SRE 13: Latency - Protections against Latency Creep via Leading Indicators
+                    </a>
+                </div>
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/sre_12"
+                        >
+                    SRE 12: Latency - Diagnosis Demands Precise Instrumentation
+                    </a>
+                </div>
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/sre_11"
+                        >
+                    SRE 11: Remediation - Adjustments Themselves Induce Risky Scenarios
+                    </a>
+                </div>
+                
+            </div>
+            
+            <div class="row" style="border-bottom: 1px solid lightgray;">
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/sre_10"
+                        >
+                    SRE 10: Remediation - Incremental Diagnosis and Underlying Causes
+                    </a>
+                </div>
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/sre_09"
+                        >
+                    SRE 09: Verification turned Protection: Leading Indicators
+                    </a>
+                </div>
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/sre_08"
+                        >
+                    SRE 08: Verification - Alerting Fatigue
+                    </a>
+                </div>
+                
+            </div>
+            
+            <div class="row" style="border-bottom: 1px solid lightgray;">
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/sre_07"
+                        >
+                    SRE 07: Protection - Defensive Algorithms
+                    </a>
+                </div>
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/sre_06"
+                        >
+                    SRE 06: Protection - Guard Rails. Prefer Mechanical, not Human.
+                    </a>
+                </div>
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/sre_05"
+                        >
+                    SRE 05: Incident Response Building Blocks.
+                    </a>
+                </div>
+                
+            </div>
+            
+            <div class="row" style="border-bottom: 1px solid lightgray;">
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/sre_04"
+                        >
+                    SRE 04: SLOs - Formalized Measurable Goal Posts
+                    </a>
+                </div>
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/sre_03"
+                        >
+                    SRE 03: Business Anchored Goal Posts
+                    </a>
+                </div>
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/sre_02"
+                        >
+                    SRE 02: The Incident Response Pipeline
+                    </a>
+                </div>
+                
+            </div>
+            
+            <div class="row" style="border-bottom: 1px solid lightgray;">
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/sre_01"
+                        >
+                    SRE 01: Site Reliability Outcomes
+                    </a>
+                </div>
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/mysql_separate_table_as_index"
+                        >
+                    Using Separate Tables as an Index
+                    </a>
+                </div>
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/overreacting_to_incidents"
+                        >
+                    Overreacting to Incidents
+                    </a>
+                </div>
+                
+            </div>
+            
+            <div class="row" style="border-bottom: 1px solid lightgray;">
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/ongoing_cost_of_third_party_software"
+                        >
+                    Ongoing Cost of Third Party Software
+                    </a>
+                </div>
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/dev_environment"
+                        >
+                    How similar should the dev environment and production environment be?
+                    </a>
+                </div>
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/minimizing_api_usage_patterns"
+                        >
+                    Minimizing API Usage Patterns
+                    </a>
+                </div>
+                
+            </div>
+            
+            <div class="row" style="border-bottom: 1px solid lightgray;">
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/no_root_cause"
+                        >
+                    There is no such thing as a 'Root Cause'
+                    </a>
+                </div>
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/leaky_communication_abstractions"
+                        >
+                    Leaky Communication Abstractions
+                    </a>
+                </div>
+                
+                <div class="col-4">
+                    <a class="outbound-link"
+                       href="/essays/circumstantial_variables"
+                        >
+                    Circumstantial Variables
+                    </a>
+                </div>
+                
+            </div>
+            
         
     </div>
 </div>
